@@ -27,6 +27,7 @@ class MQTTCapteurLumiere
     public void disconnect() throws MqttException
     {
         client.disconnect();
+        //Ceci est un test
     }
 }
 
